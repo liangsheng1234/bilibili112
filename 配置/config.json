@@ -189,10 +189,10 @@
 
             "title": "B站助手脚本消息推送", // 此为自定义变量，用于下面hooks消息推送接口引用
             "SendKey": "",
-        /*  "email": "",
+          "email": "",
             "telegram_bot_token": "",
             "telegram_bot_chatid": "",
-            "SKEY": "" */
+            "SKEY": "" 
         },
         "hooks": [ // 在这里以数组的形式定义所有消息推送回调接口
         	{
@@ -205,7 +205,7 @@
                     "text": "{title}",
                     "desp": "{msg_simple}" 
                 }
-            }/*,
+            },
             {
                 "enable": false,
                 "name": "server酱消息推送",
@@ -243,7 +243,7 @@
                 "enable": false,
                 "name": "酷推个人QQ消息推送",
                 "method": 3,
-                "url": "https://push.xuthus.cc/send/{SKEY}",
+                "url": "https://push.xuthus.cc/send/{340c44884dad8bb5699e5e559e516e6b}",
                 "params": {
                     "c": "{msg_simple}"
                 }
@@ -254,9 +254,9 @@
     "log_console": false,         // 是否把日志输出到控制台
     "users": [{                 //账户数组，每个账户包含一个cookieDatas和tasks参数，使用actions的用户可以使用secrets(biliconfig)指定cookie而不用本参数
         "cookieDatas": {        // cookie获取方式见项目说明
-            "SESSDATA": "账号SESSDATA",
-            "bili_jct": "账号bili_jct",
-            "DedeUserID": "账号uid"
+            "SESSDATA": "5edd8b49%2C1634040994%2Ca5a06%2A41",
+            "bili_jct": "a1456f67264c01ec5a14f614bf68a217",
+            "DedeUserID": "423939988"
         },
         "show_name": "", /* 昵称，用于日志，消息推送，填空则默认使用账号昵称，在actions上不想显示真实昵称时使用
         /* 下面tasks参数与最上面default参数作用相同，但优先级更高，用于定制每个账号的参数，
